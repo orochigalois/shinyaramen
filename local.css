@@ -1,0 +1,475 @@
+
+
+/* ボディー */
+
+body {
+  background-color: #000;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+/* トップ */
+
+.logo {
+  max-width: 15%;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 100;
+}
+
+#top-video {
+  width: 100%;
+  background-color: #222;
+  position: relative;
+  padding-top: 56.25%;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -100;
+}
+
+/* ナビゲーション */
+
+.slicknav_menu {
+ display:none;
+}
+@media screen and (max-width: 600px) {
+   #gnav {
+   display:none;/*モバイル時は非表示*/
+  }
+   .slicknav_menu {
+   display:block;
+  }
+}
+#luxbar .luxbar-navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  position: absolute;
+  top :100px;
+  right: 100px;
+  z-index: 1;
+}
+
+#luxbar .luxbar-navigation li {
+	float: left;
+}
+
+#luxbar .luxbar-navigation li:last-child {
+	border-right: none;
+}
+
+#luxbar .luxbar-navigation li a {
+  color: #fff;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  font-size: 14px;
+}
+
+#luxbar .luxbar-navigation li a:hover:not(.active) {
+	color: #a9bce2;
+}
+
+/* 動画上のテキスト */
+#toptext {
+  width: 100%;
+}
+
+#toptext p {
+  color: #fff;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  margin: 0 auto;
+}
+
+#toptext .top-title {
+  font-size: 10vw;
+  letter-spacing: 0.2em;
+}
+
+#toptext .top-lead {
+  font-size: 4vw;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 768px){
+  #toptext p {
+    top: 13%;
+  }
+
+  #toptext .top-title {
+    }
+
+  #toptext .top-lead {
+    font-size: 5vw;
+    margin-top: 75px;
+  }
+  #inner-boxmenu {
+    padding-top: 100px;
+  }
+}
+
+/* 新夜らーめんパララックス画像 */
+
+#content1 img {
+  width: 100%;
+  height: auto;
+  clear: none;
+}
+
+/* 新夜メニュー */
+
+#inner-boxmenu {
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  background-image: url("images/ramen-bg.jpg");
+  z-index: 0.1;
+}
+
+#inner-boxmenu .text-menu {
+  font-size: 80px;
+  margin: 100px 0 20px 0;
+  color: #fff;
+  z-index: 1;
+  font-family: 'Anton', sans-serif;
+  }
+
+#inner-boxmenu h1 {
+  text-align: center;
+}
+
+#inner-boxmenu .ourmenu {
+  width: 25%;
+  font-size: 20px;
+  color: #fff;
+  border: 2px double #fff;
+  text-decoration: none;
+  padding: 10px 35px;
+  margin:20px auto;
+  display: block;
+  border-radius: 0 15px 15px 0;
+  transition: .4s;
+}
+
+#inner-boxmenu .ourmenu a {
+  padding: 0 .3em;
+  transition: all .3s;
+}
+
+#inner-boxmenu .ourmenu a:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+#inner-boxmenu a {
+ text-align: center;
+}
+
+@media screen and (max-width: 720px){
+  #inner-boxmenu .text-menu {
+    font-size: 50px;
+  }
+  #inner-boxmenu .ourmenu {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #inner-boxmenu .text-menu {
+    font-size: 40px;
+  }
+  #inner-boxmenu .ourmenu {
+    width: 70%;
+    font-size: 28px;
+  }
+}
+
+/* 新夜ロケーション */
+
+#inner-boxlocation {
+  width: 100%;
+  height: 600px;
+  background-color: #222;
+  color: #fff;
+}
+
+#inner-boxlocation .text-location {
+  padding-top: 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#inner-boxlocation .location-lead {
+  margin-bottom: 20px;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* 新夜SNS */
+
+#inner-boxsns {
+  width: 100%;
+  background-image: url("images/bg-sns.jpg");
+}
+
+#inner-boxsns .text-sns {
+  color: #fff;
+  padding-top: 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* アイコン */
+
+#snsicon {
+  width: 195px;
+  margin: 60px auto -130px auto;
+  display: block;
+}
+
+@media screen and (max-width: 720px){
+
+#snsicon {
+  margin-bottom: 20px;
+}
+}
+
+
+/* ここから----------------------------------------------------------- */
+
+
+/* ツイッター */
+
+#snsicon .btn-social-long-twitter {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+#snsicon .btn-social-long-twitter .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+
+#snsicon .btn-social-long-twitter span {
+  display:inline-block;
+  transition: .5s;
+}
+
+#snsicon .btn-social-long-twitter:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+
+
+/* フェイスブック */
+
+#snsicon .btn-social-long-facebook {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #4966a0;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+#snsicon .btn-social-long-facebook .fa-facebook {
+  text-shadow: 2px 2px 1px #224282;
+  font-size: 30px;
+}
+
+#snsicon .btn-social-long-facebook span {
+  /*テキスト*/
+  display:inline-block;
+  transition: .5s;
+}
+
+#snsicon .btn-social-long-facebook:hover span {
+  /*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+
+
+/* インスタグラム */
+
+#snsicon .btn-social-long-insta {
+  /*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+#snsicon .btn-social-long-insta:before {
+  /*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+#snsicon .btn-social-long-insta .fa-instagram {
+  /*アイコン*/
+  font-size: 35px;/*アイコンサイズ*/
+  position: relative;
+  top: 4px;/*アイコン位置の微調整*/
+}
+
+#snsicon .btn-social-long-insta span {
+  /*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s}
+
+#snsicon .btn-social-long-insta:hover span {
+  /*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+
+/* ここまで----------------------------------------------------------- */
+
+
+
+/* 新夜SNSフォトギャラリー */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.col_3 {
+	width: 98%;
+  margin: 0 auto;
+  padding: 10%;
+	display: flex;
+	display: -ms-flexbox; /* IE10 */
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap; /* IE10 */
+  z-index: 1;
+}
+
+.col_3 > div{
+	width: 33.33333%;
+	padding: 10px;
+}
+
+@media screen and (max-width: 960px) {
+	.col_3 > div {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 560px) {
+	.col_3 > div {
+		width: 100%;
+	}
+}
+  @media screen and (max-width: 480px) {
+  	.col_3 > div img {
+      width: 95%;
+      height: 95%;
+  	}
+}
+
+/* お問い合わせ */
+
+
+/* フッター */
+
+#footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #222;
+}
+
+#footer .title {
+  font-style: 15px;
+}
+
+#footer .footer-title {
+  width: 96%;
+  padding:  30px 0;
+  text-align: center;
+  border-top: 1px solid #fff;
+  margin: 0 auto;
+}
+
+#footer p {
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  bottom: 10px;
+}
+
+/* SNSのパララックス画像 */
+
+/*
+#photobox {
+  color: #fff;
+  margin: 200px auto 0 auto ;
+  width: 900px;
+  height: 900px;
+  margin-top: 50px;
+}
+
+#photobox .innerphoto-box {
+  width: 33.3333%;
+  height: 33.3333%;
+  margin: 5px;
+  background-color: #4af;
+  float: left;
+  z-index: 1;
+  list-style: none;
+}
+*/

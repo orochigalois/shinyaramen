@@ -1,0 +1,38 @@
+#wrapper {
+	margin: 75px 0 20px 0;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+#footer {
+	width: 100%;
+	font-size: 12px;
+	font-family: 'Work Sans', sans-serif;
+  grid-row-start: 2;
+  grid-row-end: 3;
+	border-top: solid 1px #DDD;
+}
+#footer .button {
+	width: 100%;
+}
+#footer .button-potion {
+	color: #444;
+	width: 200px;
+	margin: 0 auto;
+	padding: 20px 0 35px 15px;
+}
+#footer .button-potion a:link, #footer a:visited, #footer a:hover, #footer a:active {
+	color: #444;
+}
+#footer .button-potion i {
+	margin-right: 25px;
+}
+#footer p {
+	margin: 0 auto;
+	width: 195px;
+}
