@@ -96,7 +96,7 @@
 					<a href="#" class="ourmenu toggle_submenu">▶︎ OUR MENU</a>
 
 					<a href="https://ordermate.online/shinyaramen/menu" class="ourmenu" target="_blank">▶︎ PICK UP ORDER</a>
-					<a href="https://www.doordash.com/merchant/menu/v2/1139908?store_id=808503" class="ourmenu" target="_blank">▶︎ DELIVERY ORDER</a>
+					<a href="https://www.doordash.com/store/shinya-ramen-restaurant-geelong-808503/" class="ourmenu" target="_blank">▶︎ DELIVERY ORDER</a>
 				</div>
 
 				<div class="submenu">
