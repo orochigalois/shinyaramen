@@ -110,7 +110,7 @@
 		<div id="inner-boxlocation">
 			<h1 id="tojumplocation"></h1>
 			<h1 class="text-location">SHINYA RAMEN</h1>
-			<p class="location-lead"> 8A Gheringhap St Geelong VIC 3220 <br>TEL:(03) 5222 4162<br>MAIL:info@shinya.au</p>
+			<p class="location-lead"> 8A Gheringhap St Geelong VIC 3220 <br>TEL:(03) 5222 4162<br>MAIL:info@shinyaramen.com.au<br>Trading Hours: Mon-Sun 11am-8:30pm</p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.758485529202!2d144.35703390126758!3d-38.145808460789894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c45cbd3baaa61e2!2sShinya%20Ramen!5e0!3m2!1sja!2sau!4v1566611702796!5m2!1sja!2sau" id="location" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 		</div>
 
@@ -172,6 +172,21 @@
 					<div class="gallery-item">
 						<img class="gallery-image" src="images/12.jpg">
 					</div>
+					<div class="gallery-item">
+						<img class="gallery-image" src="images/13.jpg">
+					</div>
+					<div class="gallery-item">
+						<img class="gallery-image" src="images/14.jpg">
+					</div>
+					<div class="gallery-item">
+						<img class="gallery-image" src="images/15.jpg">
+					</div>
+					<div class="gallery-item">
+						<img class="gallery-image" src="images/16.jpg">
+					</div>
+					<!-- <div class="gallery-item">
+						<img class="gallery-image" src="images/17.jpg">
+					</div> -->
 
 				</div>
 
