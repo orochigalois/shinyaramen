@@ -131,13 +131,7 @@
 
 				<div class="gallery">
 
-					<div class="gallery-item">
-						<img class="gallery-image" src="images/1.jpg">
-					</div>
-
-					<div class="gallery-item">
-						<img class="gallery-image" src="images/2.jpg">
-					</div>
+					
 
 					<div class="gallery-item">
 						<img class="gallery-image" src="images/3.jpg">
@@ -184,9 +178,9 @@
 					<div class="gallery-item">
 						<img class="gallery-image" src="images/16.jpg">
 					</div>
-					<!-- <div class="gallery-item">
+					<div class="gallery-item">
 						<img class="gallery-image" src="images/17.jpg">
-					</div> -->
+					</div>
 
 				</div>
 
