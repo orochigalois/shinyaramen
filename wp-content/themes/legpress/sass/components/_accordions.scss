@@ -1,0 +1,27 @@
+.accordion {
+
+	&__panel-heading {
+		font-size: fontsize(18);
+
+		&__link {
+			display: block;
+			padding: rem(10);
+			border: 1px solid darken($light, 20%);
+			transition: all 0.3s ease;
+
+			@include hover-focus-active {
+				background: $accent;
+				text-decoration: none;
+				color: $white;
+			}
+		}
+	}
+
+	&__panel {
+
+		&__inner {
+			padding-top: rem(15);
+			padding-bottom: rem(30);
+		}
+	}
+}

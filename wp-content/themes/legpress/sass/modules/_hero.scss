@@ -1,0 +1,29 @@
+.module__hero {
+	position: relative;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+
+	&__image {
+		width: 100%;
+		height: 100%;
+		
+		img {
+			height: 100%;
+			object-fit: cover;
+			object-position: center center;
+		}
+	}
+
+	&__copy {
+		background: rgba($black, 0.35);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+}

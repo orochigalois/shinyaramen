@@ -1,0 +1,167 @@
+.nf-form-cont {
+	margin:0px auto;
+
+	.nf-form-title {
+		display:block;
+		margin:0px 0px $form-group-margin-bottom;
+	}
+
+	.nf-form-fields-required {
+		display:none;
+	}
+
+	.nf-error-msg {
+		font-size:0.8em;
+	}
+
+	.nf-field-container {
+		@extend .form-group;
+
+		.field-wrap{
+			&.nf-error{
+				input{
+					border-color:$danger;
+				}
+			}
+		}
+
+		.nf-field{
+			&+.nf-after-field{
+				display:none !important;
+			}
+		}
+	}
+
+	.textbox-container,
+	.firstname-container,
+	.lastname-container,
+	.phone-container,
+	.email-container,
+	.city-container {
+		.nf-field-element input {
+			@extend .form-control;
+		}
+	}
+
+	.textarea-container {
+		.nf-field-element textarea {
+			@extend .form-control;
+			min-height:175px;
+		}
+	}
+
+	.listselect-container {
+		.nf-field-element select {
+			@extend .form-control;
+		}
+	}
+
+	.checkbox-container {
+		.nf-field {
+			position:relative;
+		}
+
+		.nf-field-label {
+			padding-left:6px;
+
+			label {
+				@extend %checkbox__label;
+				padding-left:10px;
+
+				&.nf-checked-label {
+					@extend %checkbox__label--active;
+				}
+			}
+		}
+
+		.nf-field-element input {
+			@extend %checkbox__input;
+		}
+	}
+
+	.listcheckbox-container {
+		.nf-field-element {
+			ul {
+				display:block;
+				margin:0px;
+				padding:0px;
+				list-style:none;
+			}
+
+			li {
+				@extend %checkbox;
+				display:block;
+				margin:0px !important;
+				padding:0px;
+
+				+ li {
+					margin-top:10px !important;
+				}
+
+				> [type="checkbox"] {
+					@extend %checkbox__input;
+
+					+ label {
+						@extend %checkbox__label;
+						margin:0px;
+					}
+
+					&:checked + label {
+						@extend %checkbox__label--active;
+					}
+				}
+			}
+		}
+	}
+
+	.listradio-container {
+		.nf-field-element {
+			ul {
+				display:block;
+				margin:0px;
+				padding:0px;
+				list-style:none;
+			}
+
+			li {
+				@extend %radio;
+				display:block;
+				margin:0px !important;
+				padding:0px;
+
+				+ li {
+					margin-top:5px !important;
+				}
+
+				> [type="radio"] {
+					@extend %radio__input;
+
+					+ label {
+						@extend %radio__label;
+						margin:0px;
+					}
+
+					&:checked + label {
+						@extend %radio__label--active;
+					}
+				}
+			}
+		}
+	}
+
+	.html-container {
+		margin:16px 0px;
+
+		.nf-field-element {
+		}
+	}
+
+	.submit-container {
+		.nf-field-element {
+			button {
+				@extend .btn;
+				@extend .btn-primary;
+			}
+		}
+	}
+}

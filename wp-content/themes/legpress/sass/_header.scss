@@ -1,0 +1,52 @@
+.site-header {
+	background: $primary;
+	padding-top: rem(32);
+
+	&__logo {
+		color: $white;
+		font-weight: $font-weight-bold;
+		padding-bottom: rem(10);
+	}
+
+	&__menu {
+
+		.menu {
+			display: block;
+
+			@include media-breakpoint-up(md) {
+				display: flex;
+				justify-content: flex-end;
+			}
+
+			li {
+				display: block;
+
+				@include media-breakpoint-up(md) {
+					margin-left: rem(10);
+				}
+
+				a {
+					color: rgba($white, 0.75);
+					display: block;
+					padding-top: rem(15);
+					padding-bottom: rem(12);
+					border-bottom: rem(5) solid transparent;
+
+					@include hover-focus-active {
+						color: $white;
+						text-decoration: none;
+						border-bottom-color: $accent;
+					}
+				}
+
+				&.current-menu-item {
+
+					a {
+						color: $white;
+						border-bottom-color: $accent;
+					}
+				}
+			}
+		}
+	}
+}

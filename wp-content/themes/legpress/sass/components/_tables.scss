@@ -1,0 +1,11 @@
+.table {
+	border: 1px solid $table-head-bg;
+
+	thead {
+
+		th {
+			background: $table-head-bg;
+			color: $table-head-color;
+		}
+	}
+}

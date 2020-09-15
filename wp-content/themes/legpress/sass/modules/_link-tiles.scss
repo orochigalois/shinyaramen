@@ -1,0 +1,45 @@
+.module__link-tiles {
+
+	.card {
+		color: inherit;
+		margin-bottom: rem(30);
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		border: 0;
+		border-radius: 0;
+
+		&-img-top,
+		&-body {
+			border: 1px solid $light;
+			transition: border 0.3s ease;
+		}
+
+		&-img-top {
+			border-bottom: 0;
+			align-self: flex-start;
+		}
+
+		&-body {
+			border-top: 0;
+			padding: rem(15);
+			background: $light;
+			flex-grow: 1;
+
+			h2 {
+				font-size: fontsize(20);
+				margin-bottom: rem(10);
+				font-weight: $font-weight-bold;
+			}
+		}
+
+		@include hover-focus-active {
+			text-decoration: none;
+
+			.card-img-top,
+			.card-body {
+				border-color: $primary;
+			}
+		}
+	}
+}

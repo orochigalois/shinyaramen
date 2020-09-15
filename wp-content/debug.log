@@ -1,0 +1,813 @@
+[26-Jun-2020 14:48:56 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\shinya.local\wp-includes\class-wp-query.php on line 3271
+[26-Jun-2020 14:48:56 UTC] PHP Stack trace:
+[26-Jun-2020 14:48:56 UTC] PHP   1. {main}() C:\wamp64\www\shinya.local\index.php:0
+[26-Jun-2020 14:48:56 UTC] PHP   2. require() C:\wamp64\www\shinya.local\index.php:17
+[26-Jun-2020 14:48:56 UTC] PHP   3. require_once() C:\wamp64\www\shinya.local\wp-blog-header.php:19
+[26-Jun-2020 14:48:56 UTC] PHP   4. do_action() C:\wamp64\www\shinya.local\wp-includes\template-loader.php:13
+[26-Jun-2020 14:48:56 UTC] PHP   5. WP_Hook->do_action() C:\wamp64\www\shinya.local\wp-includes\plugin.php:478
+[26-Jun-2020 14:48:56 UTC] PHP   6. WP_Hook->apply_filters() C:\wamp64\www\shinya.local\wp-includes\class-wp-hook.php:311
+[26-Jun-2020 14:48:56 UTC] PHP   7. lp_styleguide_template() C:\wamp64\www\shinya.local\wp-includes\class-wp-hook.php:287
+[26-Jun-2020 14:48:56 UTC] PHP   8. include() C:\wamp64\www\shinya.local\wp-content\plugins\styleguide-lp\styleguide.php:27
+[26-Jun-2020 14:48:56 UTC] PHP   9. the_post() C:\wamp64\www\shinya.local\wp-content\plugins\styleguide-lp\page-styleguide.php:2
+[26-Jun-2020 14:48:56 UTC] PHP  10. WP_Query->the_post() C:\wamp64\www\shinya.local\wp-includes\query.php:970
+[26-Jun-2020 14:48:56 UTC] PHP  11. WP_Query->next_post() C:\wamp64\www\shinya.local\wp-includes\class-wp-query.php:3300
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:16:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:16:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:16:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:16:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:16:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:16:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:16:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:16:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:16:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:16:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:02 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:17:02 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:02 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:02 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:02 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:02 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:02 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:02 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:02 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:02 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:17:15 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:17:15 UTC] PHP Stack trace:
+[15-Sep-2020 01:17:15 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:17:15 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:17:15 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:17:15 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:17:15 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:17:15 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:17:15 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:17:15 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:18:07 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:18:07 UTC] PHP Stack trace:
+[15-Sep-2020 01:18:07 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:18:07 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:18:07 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:18:07 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:18:07 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:18:07 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:18:07 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:18:07 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:35:35 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:35:35 UTC] PHP Stack trace:
+[15-Sep-2020 01:35:35 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:35:35 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:35:35 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:35:35 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:35:35 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:35:35 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:35:35 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:35:35 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:37:12 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:37:12 UTC] PHP Stack trace:
+[15-Sep-2020 01:37:12 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:37:12 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:37:12 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:37:12 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:37:12 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:37:12 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:37:12 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:37:12 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:39:18 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:39:59 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:39:59 UTC] PHP Stack trace:
+[15-Sep-2020 01:39:59 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:39:59 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:39:59 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:39:59 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:39:59 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:39:59 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:39:59 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:39:59 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:40:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:40:22 UTC] PHP Stack trace:
+[15-Sep-2020 01:40:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:40:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:40:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:40:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:40:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:40:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:40:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:40:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 15
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya websitesample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya websitesample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 16
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 86
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinya website/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[15-Sep-2020 01:46:13 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinya website/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/header.php on line 87
+[15-Sep-2020 01:46:13 UTC] PHP Stack trace:
+[15-Sep-2020 01:46:13 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinya website/index.php:0
+[15-Sep-2020 01:46:13 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinya website/index.php:17
+[15-Sep-2020 01:46:13 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinya website/wp-blog-header.php:19
+[15-Sep-2020 01:46:13 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinya website/wp-includes/template-loader.php:106
+[15-Sep-2020 01:46:13 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinya website/wp-content/themes/legpress/page.php:3
+[15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
+[15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
+[15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723

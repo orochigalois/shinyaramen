@@ -1,0 +1,24 @@
+.btn {
+	transition: border 300ms ease, background 300ms ease, color 300ms ease;
+
+	&-white {
+		background: $white;
+		border: 1px solid $white;
+		color: $black;
+
+		@include hover-focus-active {
+			background: $primary;
+			color: color-yiq($primary);
+		}
+
+		&--hollow {
+			background: transparent;
+			color: $white;
+
+			@include hover-focus-active {
+				background: $white;
+				color: $black;
+			}
+		}
+	}
+}

@@ -1,0 +1,211 @@
+@import "../../themes/shinya/sass/vars";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "../../themes/shinya/sass/vendor/bootstrap-variables";
+@import "node_modules/bootstrap/scss/utilities";
+@import "../../themes/shinya/sass/mixins";
+@import "node_modules/bootstrap/scss/nav";
+@import "node_modules/bootstrap/scss/navbar";
+
+.styleguide {
+
+	&__nav {
+		background: $secondary;
+		padding: 0 rem(10);
+
+		.nav-tabs {
+			border: 0;
+			height: rem(60); // hack to fix weird overflow issue with the link border
+
+			.nav-item {
+				padding: 0;
+				margin-right: rem(20);
+				display: flex;
+				align-items: flex-end;
+				max-height: 100%;
+
+				.nav-link {
+					display: block;
+					padding: rem(20) 0 rem(10) 0;
+					border: 0;
+					border-bottom: rem(5) solid transparent;
+					border-radius: 0;
+					color: rgba(color-yiq($secondary), 0.75);
+					transition: all 0.3s ease;
+
+					@include hover-focus-active {
+						border-bottom-color: $info;
+						color: color-yiq($secondary);
+					}
+
+					&.active {
+						background: transparent;
+						border-bottom-color: $info;
+						color: color-yiq($secondary);
+					}
+				}
+			}
+
+		}
+	}
+
+	&__content {
+
+		.tab-pane {
+
+			&#settings,
+			&#modules-index {
+				padding: rem(60) 0;
+			}
+
+			.filename {
+				display: block;
+				font-family: $font-family-monospace;
+				font-weight: $font-weight-normal;
+				color: rgba($body-color, 0.6);
+			}
+
+			.post-type {
+				display: inline-block;
+				align-items: center;
+				padding: rem(5);
+				margin-left: rem(10);
+				font-size: fontsize(10);
+				text-transform: uppercase;
+				background: $info;
+				color: color-yiq($info);
+				line-height: 1;
+			}
+
+			.module-example-heading {
+				background: $dark;
+				padding: rem(20);
+
+				h1, h2 {
+					font-size: fontsize(20);
+					color: color-yiq($dark);
+					margin: 0;
+
+					small {
+						color: rgba(color-yiq($dark), 0.6);
+					}
+				}
+			}
+
+			.settings {
+
+				ul {
+					list-style: none;
+					margin: $grid-gutter-width 0;
+					padding: 0;
+				}
+
+				&__fonts {
+
+					li {
+						display: block;
+						padding: 0;
+
+						&.heading {
+							&:after {
+								font-family: $headings-font-family;
+								content: '#{$headings-font-family}';
+								display: inline-block;
+							}
+						}
+
+						&.body {
+							&:after {
+								font-family: $font-family-base;
+								content: '#{$font-family-base}';
+								display: inline-block;
+							}
+						}
+					}
+				}
+
+				&__breakpoints {
+
+					li {
+						display: block;
+						padding: 0;
+
+						&.sm {
+							&:after {
+								content: "#{$screen-sm} to #{$screen-sm-max}";
+								display: inline-block;
+							}
+						}
+
+						&.md {
+							&:after {
+								content: "#{$screen-md} to #{$screen-md-max}";
+								display: inline-block;
+							}
+						}
+
+						&.lg {
+							&:after {
+								content: "#{$screen-lg} to #{$screen-lg-max}";
+								display: inline-block;
+							}
+						}
+
+						&.xl {
+							&:after {
+								content: "#{$screen-xl}";
+								display: inline-block;
+							}
+						}
+					}
+				}
+
+				&__colors {
+
+					li {
+						padding: rem(15);
+						text-align: center;
+
+						@each $color, $value in $theme-colors {
+							&.#{$color} {
+								background: $value;
+								color: color-yiq($value);
+
+								&:after {
+									content: '#{$value}';
+									display: block;
+								}
+							}
+						}
+
+						&:nth-of-type(-n+3) {
+							padding: rem(30) rem(15);
+							margin-bottom: rem(10);
+						}
+
+						&.body {
+
+							&:after {
+								display: block;
+								content: '#{$body-color}';
+							}
+						}
+					}
+				}
+			}
+
+			.typography-wrap {
+				padding: rem(60) 0;
+			}
+
+			.components {
+				padding-bottom: rem(60);
+
+				h2 {
+					margin-top: rem(60);
+				}
+			}
+		}
+	}
+}

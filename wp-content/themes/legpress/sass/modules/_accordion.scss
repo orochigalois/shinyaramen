@@ -1,0 +1,11 @@
+.module__accordion {
+
+	&__intro {
+
+		:last-child {
+			padding-bottom: rem(30);
+		}
+	}
+
+	// see also components/_accordions.scss
+}
