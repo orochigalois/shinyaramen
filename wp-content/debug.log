@@ -811,3 +811,723 @@
 [15-Sep-2020 01:46:13 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/general-template.php:41
 [15-Sep-2020 01:46:13 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:672
 [15-Sep-2020 01:46:13 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinya website/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 21:30:04 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 21:30:04 UTC] PHP Stack trace:
+[20-Sep-2020 21:30:04 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 21:30:04 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 21:30:04 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 21:30:04 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 21:30:04 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 21:30:04 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 21:30:04 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 21:30:04 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:18 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:37:18 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:18 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:18 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:18 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:18 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:18 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:18 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:18 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:18 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:37:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:37:54 UTC] PHP Stack trace:
+[20-Sep-2020 22:37:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:37:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:37:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:37:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:37:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:37:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:37:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:37:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[20-Sep-2020 22:39:52 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[20-Sep-2020 22:39:52 UTC] PHP Stack trace:
+[20-Sep-2020 22:39:52 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[20-Sep-2020 22:39:52 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[20-Sep-2020 22:39:52 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[20-Sep-2020 22:39:52 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[20-Sep-2020 22:39:52 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[20-Sep-2020 22:39:52 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[20-Sep-2020 22:39:52 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[20-Sep-2020 22:39:52 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:10 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:15:10 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:10 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:10 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:10 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:10 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:10 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:10 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:10 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:10 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:15:22 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:15:22 UTC] PHP Stack trace:
+[21-Sep-2020 04:15:22 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:15:22 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:15:22 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:15:22 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:15:22 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:15:22 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:15:22 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:15:22 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:17 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:16:17 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:17 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:17 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:17 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:17 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:17 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:17 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:17 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:17 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 04:16:54 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 04:16:54 UTC] PHP Stack trace:
+[21-Sep-2020 04:16:54 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 04:16:54 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 04:16:54 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 04:16:54 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 04:16:54 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 04:16:54 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 04:16:54 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 04:16:54 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-css.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 15
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.ausample/common-js.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 16
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 86
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php): failed to open stream: No such file or directory in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
+[21-Sep-2020 05:04:41 UTC] PHP Warning:  include(): Failed opening '/Users/xinyin/Project/bryan/shinyaramen.com.au/sample/common-header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/header.php on line 87
+[21-Sep-2020 05:04:41 UTC] PHP Stack trace:
+[21-Sep-2020 05:04:41 UTC] PHP   1. {main}() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:0
+[21-Sep-2020 05:04:41 UTC] PHP   2. require() /Users/xinyin/Project/bryan/shinyaramen.com.au/index.php:17
+[21-Sep-2020 05:04:41 UTC] PHP   3. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-blog-header.php:19
+[21-Sep-2020 05:04:41 UTC] PHP   4. include() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template-loader.php:106
+[21-Sep-2020 05:04:41 UTC] PHP   5. get_header() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-content/themes/legpress/page.php:3
+[21-Sep-2020 05:04:41 UTC] PHP   6. locate_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/general-template.php:41
+[21-Sep-2020 05:04:41 UTC] PHP   7. load_template() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:672
+[21-Sep-2020 05:04:41 UTC] PHP   8. require_once() /Users/xinyin/Project/bryan/shinyaramen.com.au/wp-includes/template.php:723
