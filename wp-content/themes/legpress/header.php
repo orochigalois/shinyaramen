@@ -85,5 +85,5 @@
 <body <?php body_class(); ?>>
 <?php include_once("analyticstracking.php") ?>
 	<?php include($_SERVER['DOCUMENT_ROOT'] . '/sample/common-header.php'); ?>
-	<img src="images/shinyaramen_logo250.jpg" class="logo">
+	<img src="images/logo.png" class="logo">
 	<div id="content">

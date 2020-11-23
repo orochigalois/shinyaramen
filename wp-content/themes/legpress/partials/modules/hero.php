@@ -19,17 +19,17 @@
 		<h1 id="tojumpmenu"></h1>
 		<h1 class="text-menu">SHINYA RAMEN & BAR</h1>
 		<div class="mainmenu">
-			<a href="#" class="ourmenu toggle_submenu">▶︎ GEELONG WATERFRONT STORE</a>
+			<a href="#" class="ourmenu toggle_submenu">GEELONG WATERFRONT STORE</a>
 
-			<a href="images/soon.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu" target="_blank">▶︎ WAURN PONDS STORE </a>
-			<a href="https://www.doordash.com/store/shinya-ramen-restaurant-geelong-808503/" class="ourmenu" target="_blank">▶︎ DELIVERY ORDER</a>
+			<a href="images/waurnponds.jpeg" data-lity data-lity-desc="Photo of a flower" class="ourmenu" target="_blank">WAURN PONDS STORE </a>
+			<a href="https://www.doordash.com/store/shinya-ramen-restaurant-geelong-808503/" class="ourmenu" target="_blank">DELIVERY ORDER</a>
 		</div>
 
 		<div class="submenu">
-			<a href="#" class="ourmenu toggle_back">▶︎ BACK</a>
-			<a href="images/ramen-menu.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">▶︎ STORE MENU</a>
-			<a href="images/s.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">▶︎ SEASONAL SPECIAL MENU</a>
-			<a href="https://ordermate.online/shinyaramen/menu" class="ourmenu" target="_blank">▶︎ PICK UP ORDER</a>
+			<a href="#" class="ourmenu toggle_back">BACK</a>
+			<a href="images/ramen-menu.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">STORE MENU</a>
+			<a href="images/s.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">SEASONAL SPECIAL MENU</a>
+			<a href="https://ordermate.online/shinyaramen/menu" class="ourmenu" target="_blank">ONLINE ORDER</a>
 
 		</div>
 	</div>
@@ -43,8 +43,8 @@
 	</div>
 	<div id="inner-boxlocation" class='inner-boxlocation__right'>
 		<h1 id="tojumplocation"></h1>
-		<h1 class="text-location">SHINYA RAMEN</h1>
-		<p class="location-lead"> 132-138 COLAC RD HIGHTON VIC 3216  <br>TEL:<br>MAIL:info@shinyaramen.com.au<br>Trading Hours: Mon-Sun 11am-8:30pm</p>
+		<h1 class="text-location">SHINYA RAMEN & BAR</h1>
+		<p class="location-lead"> 132-138 COLAC RD HIGHTON VIC 3216  <br>TEL:(03) 5200 9348<br>MAIL:info@shinyaramen.com.au<br>Trading Hours:</p>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.533842280806!2d144.31427851532976!3d-38.197500979684676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad413310ae32481%3A0xc39f78189fe141fc!2s132-138%20Colac%20Rd%2C%20Highton%20VIC%203216!5e0!3m2!1sen!2sau!4v1600499083500!5m2!1sen!2sau" id="location" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 	</div>
