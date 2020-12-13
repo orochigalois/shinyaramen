@@ -239,6 +239,9 @@ video {
 #inner-boxmenu .submenu {
   display: none;
 }
+#inner-boxmenu .submenu1 {
+  display: none;
+}
 
 
 #inner-boxmenu a {

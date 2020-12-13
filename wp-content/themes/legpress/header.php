@@ -46,9 +46,15 @@
 				$('.submenu').show();
 				$('.mainmenu').hide();
 			});
+			$('a.toggle_submenu1').click(function(e) {
+				e.preventDefault();
+				$('.submenu1').show();
+				$('.mainmenu').hide();
+			});
 			$('a.toggle_back').click(function(e) {
 				e.preventDefault();
 				$('.submenu').hide();
+				$('.submenu1').hide();
 				$('.mainmenu').show();
 			});
 

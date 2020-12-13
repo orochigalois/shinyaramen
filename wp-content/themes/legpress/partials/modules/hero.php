@@ -21,8 +21,7 @@
 		<div class="mainmenu">
 			<a href="#" class="ourmenu toggle_submenu">GEELONG WATERFRONT STORE</a>
 
-			<a href="images/waurnponds.jpeg" data-lity data-lity-desc="Photo of a flower" class="ourmenu" target="_blank">WAURN PONDS STORE </a>
-			<a href="https://www.doordash.com/store/shinya-ramen-restaurant-geelong-808503/" class="ourmenu" target="_blank">DELIVERY ORDER</a>
+			<a href="#" class="ourmenu toggle_submenu1">WAURN PONDS STORE </a>
 		</div>
 
 		<div class="submenu">
@@ -30,7 +29,11 @@
 			<a href="images/ramen-menu.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">STORE MENU</a>
 			<a href="images/s.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">SEASONAL SPECIAL MENU</a>
 			<a href="https://ordermate.online/shinyaramen/menu" class="ourmenu" target="_blank">ONLINE ORDER</a>
-
+		</div>
+		<div class="submenu1">
+			<a href="#" class="ourmenu toggle_back">BACK</a>
+			<a href="images/waurnponds.jpg" data-lity data-lity-desc="Photo of a flower" class="ourmenu">STORE MENU</a>
+			<a href="https://order.hungryhungry.com/shinyaramenbarwaurnponds/menu" class="ourmenu" target="_blank">ONLINE ORDER</a>
 		</div>
 	</div>
 </div>
